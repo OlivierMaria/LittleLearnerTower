@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -6,75 +6,8 @@
     box-sizing: border-box;
 }
 body{
-font-family: 'Raleway', sans-serif;
-}
-
-nav{
-    background-color: black;
-    color: white;
-    padding: 2rem 4rem;
-}
-
-.little__navbar-top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.little__navbar-top img{
-height: 20px;
-width: auto;
-}
-.little__navbar-top_links{
-    display: flex;
-    gap: 2rem;
-    text-transform: uppercase;
-    font-size: 0.95rem;
-}
-
-h3.little__navbar-top_links-items{
-    font-weight: 500;
-    color: rgb(110, 110, 110);
-    cursor: pointer;
-}
-
-.little__navbar-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.little__navbar-bottom-search{
-    margin-top: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(65, 65, 65, 0.381);
-    padding: 0.5rem 2rem;
-    border-radius: 0.7rem;
-    gap: 0.7rem;
-}
-
-.searchInput{
-    background: transparent;
-   border: none;
-   color: white;
-}
-
-.little__navbar-bottom img{
-    height: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
-.little__navbar-annonce{
-background: #77e6a9;
-height: 2rem;
-display: flex;
-align-items: center;
-justify-content: center;
-}
 
-.little__navbar-annonce h4{
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-}
